@@ -11,9 +11,13 @@
 header{
     display: flex;
     box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.3);
+    background-color: white;
+    position: fixed;
+    width: 100%;
 }
 .navbar{
     margin-left: 250px;
+    
     
 
 }
@@ -36,6 +40,10 @@ header{
     font-weight: 700;
     font-size: 25px;
     margin: 10px 0 0 100px ;
+}
+
+body{
+    overflow-x: hidden;
 }
 
 .firstTab{
