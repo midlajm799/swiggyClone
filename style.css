@@ -18,12 +18,10 @@ header {
     width: 100%;
 }
 
-.navbar {
-    margin-left: 250px;
 
 
 
-}
+
 
 .list {
     display: inline;
@@ -341,6 +339,10 @@ body {
     border-width: 1px;
 }
 
+.filter:hover{
+    box-shadow: 00px 0px 50px rgba(0, 0, 0, 0.4);
+}
+
 .citybox {
     margin-left: 100px;
     margin-top: 20px;
@@ -448,4 +450,38 @@ footer {
 
 .lgoo {
     font-size: 50px;
+}
+
+/* mediaquery */
+
+@media (max-width:720px){
+    .firstTab {
+        /* background-color: aqua; */
+        height: 150px;
+        width: 100%;
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: repeat(2, 50px);
+        column-gap: 150px;
+        justify-content: center;
+        margin-bottom: 300px;
+    }
+
+    .secondTab {
+        /* background-color: aqua; */
+        height: 330px;
+        width: 100%;
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: repeat(1, 350px);
+        justify-content: center;
+        margin-bottom: 700px;
+    
+    }
+
+    .cities {
+        display: grid;
+        grid-template-columns: repeat(2, 300px);
+        margin-left: 10px;
+    }
 }
